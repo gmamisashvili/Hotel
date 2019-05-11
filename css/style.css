@@ -102,6 +102,15 @@
   color: #445cfd;
 }
 
+.nav-prices {
+  color: grey;
+  cursor: default;
+}
+.nav-prices:hover {
+  color: grey;
+  cursor: default;
+}
+
 .nav-burger {
   display: none;
   height: 35px;
@@ -296,6 +305,7 @@
 
 .contact-info {
   line-height: 1.6;
+  width: 40%;
 }
 
 .contact-form {
@@ -386,6 +396,13 @@
   right: 5%;
 }
 
+.form-errors {
+  position: absolute;
+  bottom: 10%;
+  display: none;
+  color: red;
+}
+
 /* footer */
 
 /* media-queries */
@@ -418,7 +435,7 @@
   }
 
   .main-section-button {
-    margin: 2% auto;
+    margin: 7% auto;
     font-size: 15px;
     width: 200px;
     padding: 6%;
@@ -468,7 +485,7 @@
   .functionality-right {
     order: 2;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
   }
 
   .functionality-header {
@@ -524,6 +541,32 @@
 
   .footer-nav {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .main-left-header {
+    font-size: 22px;
+    margin: 5%;
+  }
+
+  .nav-burger {
+    width: 30px;
+    height: 30px;
+  }
+
+  .superiority-header {
+    margin: 5% 0;
+    font-size: 22px;
+  }
+
+  .contact-form-button {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .responsive-menu-li {
+    font-size: 18px;
   }
 }
 

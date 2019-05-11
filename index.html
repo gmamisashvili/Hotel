@@ -62,7 +62,7 @@
               <a class="nav-li-links" href="#functionality">ფუნქციონალი</a>
             </li>
             <li class="nav-li-items">
-              <a class="nav-li-links" href="#">ფასები</a>
+              <a class="nav-li-links nav-prices" href="#">ფასები</a>
             </li>
             <li class="nav-li-items">
               <a class="nav-li-links" href="#contact">დაგვიკავშირდით</a>
@@ -207,23 +207,32 @@
               </p>
             </div>
             <div class="contact-form">
-              <form>
+              <form class="form-tag">
                 <h1 class="form-header">
                   ან დაგვიტოვეთ თქვენი ნომერი და ჩვენ დაგირეკავთ
                 </h1>
                 <input
-                  class="form-control contact-inputs"
+                  class="form-control contact-inputs contact-inputs-name"
                   type="text"
                   placeholder="თქვენი სახელი"
                 />
                 <input
-                  class="form-control contact-inputs"
+                  class="form-control contact-inputs contact-inputs-mobile"
                   type="number"
                   placeholder="თქვენი მობილურის ნომერი"
                 />
                 <button class="main-section-button contact-form-button">
                   დამირეკეთ
                 </button>
+                <p class="name-error form-errors">
+                  გთხოვთ შეიყვანოთ სახელი
+                </p>
+                <p class="mobile-error form-errors">
+                  გთხოვთ შეიყვანოთ საკონტაქტო ნომერი
+                </p>
+                <p class="both-error form-errors">
+                  გთხოვთ შეიყვანოთ ინფორმაცია
+                </p>
               </form>
             </div>
           </div>
